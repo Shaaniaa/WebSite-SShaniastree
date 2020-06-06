@@ -1,0 +1,136 @@
+#gh{
+    margin: 20px auto;
+    width: 400px;
+    color: peachpuff;
+    opacity:0.6;
+    display: flex; /*display flex nai apnai andar mojud divs ko inline krdiya h*/
+    height:auto;
+    flex-wrap: wrap; /*isse responsive hora h flex*/
+
+    
+    }
+    h1{
+        text-align:center;
+        text-decoration:underline;
+        font-weight:bold;
+        font-style:italic;
+        color:black;
+        }
+            
+    input{
+    background: peachpuff;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid steelblue;
+    cursor:pointer
+    }
+    #message{
+        background: peachpuff;
+        border: 3px solid steelblue;
+        cursor:pointer;
+        justify-content: center;
+        align-items: center;
+        /* min-width:20px;
+        max-width:300px;*/
+        box-shadow: 2px 2px 20px black;
+        }
+    
+    input[type="text"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 200%;
+    background: peachpuff;
+    border: 3px solid steelblue;
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    }
+    
+    input[type="email"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 200%;
+    background: peachpuff;
+    border: 3px solid steelblue;
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    }
+    
+    
+    input[type="password"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 200%;
+    background: peachpuff;
+    border: 3px solid steelblue;
+    }
+    
+    input[type="submit"]{
+        border: 3px solid steelblue;
+    justify-content: center;
+    align-items: center;
+    
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    border-radius: 100px; /*box is getting round due to this*/
+    margin-top:10px;
+    font-size: 18px;
+    width:180px;
+    font-weight: bold;
+    padding:20px;
+    cursor:pointer;
+    display: flex;
+
+    }
+    input[type="reset"]{
+        display: flex;
+        position: relative;
+        border: 3px solid steelblue;
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    border-radius: 100px; /*box is getting round due to this*/
+    width:180px;
+    font-weight: bold;
+    margin-top:10px;
+    padding:20px;
+    font-size: 18px;
+    margin-left: 20px;
+
+    cursor:pointer;
+    }
+    input[type="reset"]:hover,input[type="submit"]:hover{
+        background-color: hotpink;
+        color:white;
+    }
+    div> .footer{
+        margin-right: 0px !important;
+        right:0px !important;
+        margin:0px !important;
+        background-color: #FFCDD2 !important; /*Rendereing bootstrap css*/
+        border: 2px solid #D4E157 !important;
+        padding-top: 8px !important;
+        background-attachment: fixed;
+        text-align: center;
+         font-size: 16px;
+         font-style: italic;
+     } 
+     .foot{
+         color:black;
+         font-style: normal;
+         font-weight: bold;
+         margin-right: 25px;
+     }
+    
+     .foot:hover{
+         color:orange;
+     }
+    

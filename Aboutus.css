@@ -1,0 +1,89 @@
+body{
+background-color:#F8BBD0;}
+
+h1{
+text-align:center;
+text-decoration:underline;
+font-weight:bold;
+font-style:italic;
+}
+
+p{
+text-indent:150px;
+font-style:italic;}
+
+.aboutt{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.treee{
+  text-shadow: 5px 5px 10px grey;
+}
+
+div.div2:hover{
+transform: scale(1.1); -webkit-transform: scale(1.05);
+transition:transform .8s ease;  /*is ki waja se smoothly zoom hora h or agr 1s krdungi tou foran se pic zoom ho k ajaigi*/
+}
+
+div.div1{
+background:url(pinks.jpg) repeat;
+padding:155px;
+border:solid;
+display: flex; /*display flex nai apnai andar mojud divs ko inline krdiya h*/
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap; /*isse responsive hora h flex*/
+    
+}
+
+  div.div2{
+/*	padding:20px;*/
+  border:black solid 2px;
+  background-color:#F8BBD0;
+  min-width: 20px; /*yeh px m hi hona chaiyye h*/
+  
+}
+@media screen and (max-width:600px){  /*media query k through flex ko full width krdiya small screen p*/
+  div.div2{
+      width:100%;
+    
+  }
+}
+@media screen and (max-width:600px){  /*media query k through flex ko full width krdiya small screen p*/
+  div.div1{
+      width:100%;
+      padding:50px;
+      
+  }
+}
+div> .footer{
+  margin-right: 0px !important;
+  right:0px !important;
+  margin:0px !important;
+  background-color: #FFCDD2 !important; /*Rendereing bootstrap css*/
+  border: 2px solid #D4E157 !important;
+  padding-top: 8px !important;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  
+} 
+.foot{
+   color:black;
+   font-style: normal;
+   font-weight: bold;
+   margin-right: 25px;
+}
+
+.foot:hover{
+   color:orange;
+}
+.treeee{
+  text-shadow: 5px 5px 10px grey;
+  font-size: 30px;
+}
+.bol{
+font-size:20px;
+font-weight: bolder;
+}      

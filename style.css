@@ -1,0 +1,451 @@
+
+.navbar{
+margin-right: 0px !important;
+right:0px !important;
+margin:0px !important;
+background-color: #FFCDD2 !important; /*Rendereing bootstrap css*/
+border: 2px solid #D4E157 !important;
+padding-top: 8px !important;
+background-attachment: fixed;
+}
+
+.form-control{
+    width:500px !important;
+}
+.dropdown{
+    padding-top:8px !important;
+    font-weight: bolder;
+    border:none !important;
+    /*padding-bottom: 10px;*/
+    
+    
+}
+
+.dropdown-menu{
+    background-color: #FFCDD2 !important;
+    border:none !important;
+}
+
+
+.nav-link{
+    color:white !important;
+    font-weight: bolder !important;
+}
+
+.btn{
+    color:white;
+    font-weight: bolder !important;
+    border: none !important;
+    background-color: grey !important ;
+    /*border: 2px solid #D4E157 !important;*/
+    border-radius: 100px !important;
+}
+.form-control{
+    border-radius: 100px !important;
+}
+.btn:hover{
+    background-color:#F8BBD0 !important;
+    border: none !important;
+    
+}
+.dropdown:hover, .nav-item:hover{
+    background-color:#F8BBD0 !important;
+
+}
+.dropdown:hover>.dropdown-menu { /*By doing this dropdown menu open on hover*/
+    display: block;
+   }
+.btn:active{
+    border: none !important;
+   
+}
+
+.sha{
+    background-color: #FCE4EC ;
+    text-align: center;
+    height:26px;
+    font-style: oblique;
+}
+div>.shaa{
+    background-color: #FCE4EC ;
+    text-align: center;
+    height:auto;
+    font-style: oblique;
+}
+
+img{
+    padding-bottom: 20px ;
+}
+
+.fa-shopping-cart, .fa-user{
+    font-size:32px !important;
+}
+
+.navbar-brand{
+    font-style: oblique;
+    font-family: Apple Chancery, cursive;
+    font-size:25px !important;
+    text-shadow: 5px 5px 10px grey;
+}
+.carousel-inner > .item > img {
+    max-width:100% !important;
+    height:auto !important;
+  }
+.carousel {
+    width:100% !important;
+    height:auto !important;
+    
+  } 
+.carousel-indicators li 
+{ visibility: hidden; }
+.carousel-control{
+    height:50px !important;
+    width:50px !important;
+}
+h5{
+    font-size:40px;
+    font-family: Helvetica;
+}
+
+p{
+    font-size: 45px;
+    font-style: italic;
+    font-family: Brush Script MT;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: hotpink;
+ 
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: hotpink;
+}
+
+.fa-truck{
+    font-size:50px !important;
+    margin-right: 10px;
+}
+.cart1,.cart2,.cart3{
+    display: flex;
+    width:300px;
+    height:100px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincard{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.best{
+    text-align: center;
+    font-family: French Script MT;
+    font-size: 80px;   
+}
+#inline{
+    
+    min-width:20px; /*yeh px m hi hona chaiyye h*/
+    display: flex; /*display flex nai apnai andar mojud divs ko inline krdiya h*/
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap; /*isse responsive hora h flex*/
+    justify-content: space-between; /*isse har flex k bej m space ajaigi jo k phele sth jurai hoye thai*/
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-attachment: fixed;
+    background-color: rgb(190, 186, 186);
+    
+}
+.sidepic{
+    background-attachment: fixed;
+    background-image: url(grayy.jpg);
+    width:100%;
+    min-width:20px;
+    height:auto;
+    
+}
+
+div.insightstyling1{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(bb3.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+}
+div.insightstyling2{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y2.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+}
+div.insightstyling3{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+}
+div.insightstyling4{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y3.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling5{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y4.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling6{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y5.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling7{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y6.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling8{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y7.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling9{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y9.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling10{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y8.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling11{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y11.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+div.insightstyling12{
+
+    margin-top:25px;  /*jb screen choti hogi tou div k aps m itna margin hoga*/
+    height:300px;
+    width:300px;
+   /* border:3px solid black;*/
+    background-image: url(y10.jpg);
+    text-align: center;  /* it is making the button center which is inside a div*/
+    justify-content: center;
+    align-items: center;
+    /* min-width:20px;
+    max-width:300px;*/
+    box-shadow: 2px 2px 20px black;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:600px){  /*media query k through flex ko full width krdiya small screen p*/
+    div.insightstyling1,div.insightstyling2,div.insightstyling3{
+        margin-left:20px;
+        
+    }
+}
+
+.insightstyling1:hover, .insightstyling2:hover, .insightstyling3:hover,
+.insightstyling4:hover,.insightstyling5:hover,.insightstyling6:hover,
+.insightstyling7:hover,.insightstyling8:hover,.insightstyling9:hover,
+.insightstyling10:hover,.insightstyling11:hover,.insightstyling12:hover{
+    transform: scale(1.1); -webkit-transform: scale(1.1);
+    transition:transform .8s ease;  /*is ki waja se smoothly zoom hora h or agr 1s krdungi tou foran se pic zoom ho k ajaigi*/
+  }
+  .inputtt{
+    border:none;
+    background-color: white;
+    border-radius: 100px; /*box is getting round due to this*/
+    padding:20px;
+    font-size: 18px;
+    color:rgb(68, 66, 66);
+    width:180px;
+    font-weight: bold;
+    margin-top:210px;
+    cursor:pointer;
+   /* width:50%;*/
+
+}
+
+.inputtt:hover{
+    background-color: hotpink;
+    color:white;
+}
+.aboutt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  
+  }
+ 
+  .treee{
+    text-shadow: 5px 5px 10px grey;
+  }
+ div> .footer{
+    margin-right: 0px !important;
+    right:0px !important;
+    margin:0px !important;
+    background-color: #FFCDD2 !important; /*Rendereing bootstrap css*/
+    border: 2px solid #D4E157 !important;
+    padding-top: 8px !important;
+    background-attachment: fixed;
+    
+ } 
+ .foot{
+     color:black;
+     font-style: normal;
+     font-weight: bold;
+     margin-right: 25px;
+ }
+
+ .foot:hover{
+     color:orange;
+ }
+
+ .gotop{
+     position:fixed;
+     width:50px;
+     height:50px;
+     background:hotpink;
+     bottom:40px;
+     right:50px;
+     text-decoration: none;
+     text-align: center;
+     color:white;
+     line-height:50px;
+     font-size:22px;
+ }
+ .gotop:hover{
+    color:black;
+  }
+
+ html{
+     scroll-behavior: smooth;
+ }
